@@ -1,0 +1,16 @@
+{
+  "name": "chhaya",
+  "version": "1.0.0",
+  "description": "it is an amazing package",
+  "main": "firstCode.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "chhaya",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0",
+    "nodemon": "^3.1.9"
+  }
+}
