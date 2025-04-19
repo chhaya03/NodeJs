@@ -65,3 +65,22 @@ Node.js is single-threaded when it comes to executing JavaScript code, but it us
 3. Worker Threads: For computationally expensive or CPU-bound tasks, you can also use Worker Threads in Node.js, which allows you to create multiple threads to offload heavy computations without blocking the event loop.
 
 
+<h1>HTTP SERVER in NodeJs:</h1>
+Creating an HTTP server in Node.js is super straightforward, thanks to the built-in http module. Here's a complete breakdown so you understand both the code and what's going on behind the scenes.<br>
+const http = require('http');<br>
+
+Node.js has a built-in module called http that allows you to create web servers and handle HTTP requests/responses.<br>
+<h2>Create a server:</h2>
+1. req: Contains details about the incoming request (URL, method, headers, etc.).<br>
+2. res: Used to send a response back to the client.
+
+<h2>Start the Server:</h2>
+server.listen(3000 , ()=>{}) => This starts the server and listens on port.(http://localhost:3000/)
+
+Breakdown :<br>
+Routing is handled manually using req.url.<br>
+res.writeHead(statusCode, headers) sets HTTP response headers.<br>
+res.end() ends the response and sends data back to the client.
+
+
+
