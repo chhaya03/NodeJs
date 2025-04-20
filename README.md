@@ -84,3 +84,47 @@ res.end() ends the response and sends data back to the client.
 
 
 
+<h1>URL Module:</h1>
+The url module in Node.js is a built-in module used to parse and work with URLs. It helps you break down a full URL into readable parts like hostname, pathname, query string, etc.
+<h2>🔹 Importing the URL Module:</h2>
+const url = require('url');
+
+<h1>HTTP METHODS:</h1>
+<table>
+  <tr>
+    <th>Method</th>
+    <th>Purpose</th>
+    <th>Use Case</th>
+  </tr>
+
+  <tr>
+    <th>GET</th>
+    <th>Retrieve data</th>
+    <th>Fetching user profile, posts</th>
+  </tr>
+
+  <tr>
+    <th>POST</th>
+    <th>Send new data to server</th>
+    <th>Submitting a form, creating item</th>
+  </tr>
+
+   <tr>
+    <th>PUT</th>
+    <th>Update/replace a resource</th>
+    <th>Editing a post (replace entire)</th>
+  </tr>
+
+ 
+   <tr>
+    <th>PATCH</th>
+    <th>Partially update a resource</th>
+    <th>Update only name, or one field</th>
+  </tr> 
+
+   <tr>
+    <th>DELETE</th>
+    <th>Remove a resource</th>
+    <th>Delete a post or user</th>
+  </tr> 
+</table>
